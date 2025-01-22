@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Playlist</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Hamidiy she'rlari audio yozuvlarda</h1>
+        <h2>Audio Yozuv Ro'yxati</h2>
+        <!-- Playlist ko'rinishi -->
+        <ul id="playlist" class="playlist"></ul>
+        
+        <!-- Audio pleer -->
+       
+        
+        <!-- Audio Playlist -->
+        <h2>Audio Player</h2>
+        <ul id="playlist" class="playerlist"></ul>
+        
+        <!-- Audio Player -->
+        <div class="player">
+            <audio id="audioPlayer" class="playeraudio" controls>
+                Your browser does not support the audio element.
+            </audio>
+            <button id="nextAudioButton">Keyingi</button>
+        </div>
+        
+        <!-- Video Player -->
+        <h2>Video Yozuv</h2>
+        <div class="player">
+            <video id="videoPlayer" class="playeraudio" controls>
+                <source src="media/FahriddinUmarov.mp4" type="video/mp4">
+                Your browser does not support the video element.
+            </video>
+            <h3 id="videoTitle"></h3>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
