@@ -46,17 +46,14 @@ li:hover {
 }
 .playlist{
    
-    flex-wrap: wrap;
+ 
     font-size: 14px;
 }
 .playeraudio{
     width: 100%;
     margin-right:10px;
 }
-.playlist{
-    display: flex;
-    justify-content: space-between;
-}
+
 button {
     padding: 10px 20px;
     background: #28a745;
